@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # 🌌 AURA: AI-Powered Candidate Ranking & Shortlisting System
 
 AURA is a next-generation recruiting system designed to replace outdated keyword-based applicant tracking systems (ATS). By combining **semantic vector search**, **heuristic hybrid scoring (experience + behavior + activity)**, and **LLM re-ranking (GPT-4o / Gemini)**, AURA evaluates candidates holistically and provides natural language explanations for its recommendations—just like an expert human recruiter.
@@ -162,3 +163,6 @@ Returns predefined job description templates.
 ### `GET /api/download`
 Downloads the CSV file representing the shortlist generated during the last run. Columns include:
 `candidate_id | rank | score | explanation | name | recommendation | strengths | gaps`
+=======
+# AI-Based-Candidate-Ranking-System
+>>>>>>> b4345d14456ddba1686c25f7a4ca393bcb03c2da
