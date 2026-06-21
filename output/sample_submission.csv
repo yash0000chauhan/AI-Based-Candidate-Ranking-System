@@ -1,0 +1,50 @@
+candidate_id,rank,score,reasoning
+CAND_0000001,1,0.4596,"Backend Engineer with 6.9 years of experience. Expert in fine-tuning llms, nlp. Available with 60-day notice; response rate is 34%."
+CAND_0000015,2,0.4038,Software Engineer with 5.4 years of experience. Expert in pytorch. Available with 90-day notice; response rate is 32%.
+CAND_0000021,3,0.3952,"Project Manager with 14.5 years of experience. Expert in fine-tuning llms, embeddings, vector search. Available with 60-day notice; response rate is 49%."
+CAND_0000023,4,0.3921,Software Engineer with 3.7 years of experience. Expert in AI systems. Available with 30-day notice; response rate is 56%.
+CAND_0000010,5,0.3909,"Data Engineer with 4.6 years of experience. Expert in python, elasticsearch. Available with 120-day notice; response rate is 40%."
+CAND_0000014,6,0.3540,"Frontend Engineer with 8.4 years of experience. Expert in faiss, opensearch. Highly responsive candidate (80% response rate) with 90-day notice."
+CAND_0000032,7,0.3509,".NET Developer with 8.1 years of experience. Expert in python, embeddings. Available with 150-day notice; response rate is 69%."
+CAND_0000031,8,0.3502,"Recommendation Systems Engineer with 6.0 years of experience. Expert in information retrieval, embeddings, faiss. Highly responsive candidate (91% response rate) with 60-day notice. Note: short tenure patterns suggest potential retention risk."
+CAND_0000043,9,0.3437,"Cloud Engineer with 8.3 years of experience. Expert in fine-tuning llms, elasticsearch. Available with 120-day notice; response rate is 4%."
+CAND_0000044,10,0.3266,Frontend Engineer with 5.7 years of experience. Expert in python. Available with 90-day notice; response rate is 66%.
+CAND_0000025,11,0.3143,Frontend Engineer with 7.3 years of experience. Expert in AI systems. Highly responsive candidate (74% response rate) with 120-day notice.
+CAND_0000048,12,0.2994,Mobile Developer with 9.7 years of experience. Expert in AI systems. Available with 120-day notice; response rate is 65%.
+CAND_0000029,13,0.2975,Business Analyst with 7.2 years of experience. Expert in AI systems. Available with 60-day notice; response rate is 12%.
+CAND_0000036,14,0.2975,Project Manager with 11.3 years of experience. Expert in AI systems. Available with 60-day notice; response rate is 40%.
+CAND_0000038,15,0.2952,Java Developer with 6.7 years of experience. Expert in AI systems. Available with 90-day notice; response rate is 20%.
+CAND_0000037,16,0.2921,Business Analyst with 14.3 years of experience. Expert in AI systems. Highly responsive candidate (78% response rate) with 30-day notice.
+CAND_0000019,17,0.2917,Project Manager with 6.5 years of experience. Expert in AI systems. Available with 60-day notice; response rate is 34%.
+CAND_0000018,18,0.2877,Frontend Engineer with 6.6 years of experience. Expert in AI systems. Available with 120-day notice; response rate is 16%.
+CAND_0000006,19,0.2828,Business Analyst with 6.0 years of experience. Expert in AI systems. Available with 150-day notice; response rate is 12%.
+CAND_0000035,20,0.2824,Full Stack Developer with 4.3 years of experience. Expert in AI systems. Available with 60-day notice; response rate is 34%.
+CAND_0000045,21,0.2823,Project Manager with 12.2 years of experience. Expert in AI systems. Available with 60-day notice; response rate is 62%.
+CAND_0000002,22,0.2807,Operations Manager with 12.5 years of experience. Expert in AI systems. Available with 60-day notice; response rate is 28%.
+CAND_0000050,23,0.2728,Business Analyst with 13.5 years of experience. Expert in AI systems. Available with 90-day notice; response rate is 42%.
+CAND_0000041,24,0.2633,Operations Manager with 13.7 years of experience. Expert in AI systems. Available with 90-day notice; response rate is 7%.
+CAND_0000034,25,0.2490,Business Analyst with 14.5 years of experience. Expert in AI systems. Available with 90-day notice; response rate is 15%.
+CAND_0000027,26,0.2451,DevOps Engineer with 3.9 years of experience. Expert in information retrieval. Available with 90-day notice; response rate is 57%. Background is primarily services/consulting-based.
+CAND_0000008,27,0.2173,Operations Manager with 3.6 years of experience. Expert in AI systems. Available with 90-day notice; response rate is 42%. Background is primarily services/consulting-based.
+CAND_0000011,28,0.2073,QA Engineer with 2.0 years of experience. Expert in AI systems. Available with 90-day notice; response rate is 56%.
+CAND_0000016,29,0.2039,Accountant with 5.3 yrs experience; profile stuffed with keywords but lacks engineering depth; poor fit.
+CAND_0000020,30,0.2022,Mechanical Engineer with 6.3 yrs experience; profile stuffed with keywords but lacks engineering depth; poor fit.
+CAND_0000007,31,0.2003,Civil Engineer with 5.5 yrs experience; profile stuffed with keywords but lacks engineering depth; poor fit.
+CAND_0000026,32,0.2003,Graphic Designer with 6.8 yrs experience; profile stuffed with keywords but lacks engineering depth; poor fit.
+CAND_0000030,33,0.1958,Marketing Manager with 10.0 yrs experience; profile stuffed with keywords but lacks engineering depth; poor fit.
+CAND_0000042,34,0.1953,HR Manager with 5.0 yrs experience; profile stuffed with keywords but lacks engineering depth; poor fit.
+CAND_0000046,35,0.1947,Mechanical Engineer with 7.8 yrs experience; profile stuffed with keywords but lacks engineering depth; poor fit.
+CAND_0000033,36,0.1854,Graphic Designer with 8.6 yrs experience; profile stuffed with keywords but lacks engineering depth; poor fit.
+CAND_0000047,37,0.1853,Project Manager with 2.4 years of experience. Expert in AI systems. Available with 90-day notice; response rate is 39%. Background is primarily services/consulting-based.
+CAND_0000005,38,0.1847,Accountant with 11.0 yrs experience; profile stuffed with keywords but lacks engineering depth; poor fit.
+CAND_0000009,39,0.1746,Mechanical Engineer with 11.0 yrs experience; profile stuffed with keywords but lacks engineering depth; poor fit.
+CAND_0000049,40,0.1728,Mechanical Engineer with 11.8 yrs experience; profile stuffed with keywords but lacks engineering depth; poor fit.
+CAND_0000039,41,0.1694,Marketing Manager with 3.9 yrs experience; profile stuffed with keywords but lacks engineering depth; poor fit.
+CAND_0000012,42,0.1685,Operations Manager with 1.1 years of experience. Expert in AI systems. Available with 60-day notice; response rate is 16%.
+CAND_0000028,43,0.1603,Operations Manager with 1.1 years of experience. Expert in AI systems. Available with 60-day notice; response rate is 14%. Background is primarily services/consulting-based.
+CAND_0000004,44,0.1504,Marketing Manager with 3.8 yrs experience; profile stuffed with keywords but lacks engineering depth; poor fit.
+CAND_0000024,45,0.1376,HR Manager with 7.5 yrs experience; profile stuffed with keywords but lacks engineering depth; poor fit.
+CAND_0000040,46,0.0797,Customer Support with 1.6 yrs experience; profile stuffed with keywords but lacks engineering depth; poor fit.
+CAND_0000013,47,0.0631,Civil Engineer with 1.1 yrs experience; profile stuffed with keywords but lacks engineering depth; poor fit.
+CAND_0000022,48,0.0611,Mechanical Engineer with 1.1 yrs experience; profile stuffed with keywords but lacks engineering depth; poor fit.
+CAND_0000003,49,0.0495,Customer Support with 1.1 yrs experience; profile stuffed with keywords but lacks engineering depth; poor fit.
