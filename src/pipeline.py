@@ -3,6 +3,7 @@ import logging
 import pandas as pd
 from typing import Dict, Any, List
 from pathlib import Path
+import concurrent.futures
 from src.config import TOP_N_RETRIEVAL, OUTPUT_DIR
 from src.job_parser import JobParser
 from src.candidate_parser import CandidateParser
@@ -81,9 +82,9 @@ class CandidateRankingPipeline:
 
         # 6. LLM-Based Re-ranking & Explainability
         logger.info("Step 6: Executing LLM Re-ranking on candidates...")
-        final_ranked_list = []
         
-        for candidate, scores in hybrid_results:
+        def process_candidate(item):
+            candidate, scores = item
             cand_id = candidate["candidate_id"]
             logger.info(f"Reranking candidate {cand_id} ({candidate.get('name')})...")
             
@@ -91,14 +92,13 @@ class CandidateRankingPipeline:
             llm_evaluation = self.reranker.rerank_candidate(candidate, parsed_jd)
             
             # Combine Hybrid Score and LLM Score
-            # Hybrid score is 0-1 (we multiply by 100), LLM score is 0-100
             hybrid_score_scaled = scores["hybrid_score"] * 100.0
             llm_score = float(llm_evaluation.get("llm_score", 50))
             
             # Weighted combined score: 50% Hybrid, 50% LLM
             combined_score = (0.50 * hybrid_score_scaled) + (0.50 * llm_score)
             
-            candidate_summary = {
+            return {
                 "candidate_id": cand_id,
                 "name": candidate.get("name"),
                 "experience_years": candidate.get("experience_years"),
@@ -118,7 +118,10 @@ class CandidateRankingPipeline:
                 "confidence_score": llm_evaluation.get("confidence_score", 0.8),
                 "is_cold_start": scores["is_cold_start"]
             }
-            final_ranked_list.append(candidate_summary)
+
+        # Run concurrently with up to 10 threads to avoid Render timeout (which occurs ~60s)
+        with concurrent.futures.ThreadPoolExecutor(max_workers=10) as executor:
+            final_ranked_list = list(executor.map(process_candidate, hybrid_results))
 
         # 7. Final Sort
         logger.info("Step 7: Sorting and exporting final ranked list...")
